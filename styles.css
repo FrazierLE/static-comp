@@ -1,3 +1,7 @@
+.flex {
+  display: flex;
+}
+
 .header {
   border: 3px solid green;
   justify-content: space-between;
@@ -24,18 +28,20 @@
 
 .cards {
   border: 3px solid black;
+  margin: 2px;
+  width: 23vw;
+  height: 42vh;
+  flex-direction: column;
 }
 
-.flex {
-  display: flex;
-}
 
 h1 {
   height: 10vh;
 }
 
-.allCards-top, .allCards-bottom{
+.allCards-top, .allCards-bottom {
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 
