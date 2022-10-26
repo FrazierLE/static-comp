@@ -1,0 +1,41 @@
+.header {
+  border: 3px solid green;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+.stageRight {
+  border: 3px solid yellow;
+  list-style: none;
+  width: 30%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.stageLeft {
+  border: 3px solid red;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title {
+  border: 3px solid blue;
+}
+
+.cards {
+  border: 3px solid black;
+}
+
+.flex {
+  display: flex;
+}
+
+h1 {
+  height: 10vh;
+}
+
+.allCards-top, .allCards-bottom{
+  flex-direction: row;
+}
+
+
