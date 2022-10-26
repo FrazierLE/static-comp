@@ -24,13 +24,14 @@
 
 .title {
   border: 3px solid blue;
+  margin: 17px;
 }
 
 .cards {
   border: 3px solid black;
   margin: 2px;
   width: 23vw;
-  height: 42vh;
+  height: 50vh;
   flex-direction: column;
 }
 
@@ -42,6 +43,10 @@ h1 {
 .allCards-top, .allCards-bottom {
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.cards.image {
+  align-items: center;
 }
 
 
