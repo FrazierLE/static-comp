@@ -14,7 +14,7 @@ main {
   /* border: 3px solid green; */
   justify-content: space-between;
   height: 15vh;
-  background-color: rgb(52, 83, 102);
+  background-color: rgb(72, 124, 170);
   color: white;
   font-size: 3rem;
 }
@@ -50,7 +50,7 @@ main {
   flex-direction: column;
   font-size: 2.25rem;
   background-color: whitesmoke;
-  box-shadow: 1px 1px 3px blue;
+  box-shadow: 1px 1px 6px rgb(72, 124, 170);
 }
 
 .background {
@@ -59,9 +59,20 @@ main {
   background-position-y: -9vh;
   background-position-x: -3vh;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  /* flex-direction: column;
+  align-items: flex-end; */
   font-size: 2.3rem;
+}
+
+.background {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+div.flex.arrowIcon {
+  flex-direction: column;
+  width: 4vw;
 }
 
 h1 {
@@ -71,6 +82,15 @@ h1 {
 p, h3, h4, h5, h6 {
   height: 0vh;
   margin-left: 15px;
+}
+
+h5 {
+  margin-top: 0px;
+  font-size: 2rem;
+}
+
+h6 {
+  margin-top: 10px;
 }
 
 .allCards-top, .allCards-bottom {
@@ -85,7 +105,7 @@ p, h3, h4, h5, h6 {
 
 .logo {
   height: 10vh;
-  background-color: rgb(52, 83, 102)
+  background-color: rgb(72, 124, 170);
 }
 
 a {
@@ -107,6 +127,7 @@ p.number {
   height: 3vh;
   text-align: center;
   margin-top: 8px;
+  border-radius: 5px;
 }
 
 div.link {
@@ -121,6 +142,7 @@ label {
 .icons {
   height: 2vh;
   width: 2vw;
+  cursor: pointer;
 }
 
 .menu {
@@ -129,5 +151,20 @@ label {
 }
 
 .distance {
-  margin-left:15px;
+  margin: -13px 0 20px 15px;
+  font-size: 3.2rem;
+  color: rgb(72, 124, 170);
+}
+
+.date {
+  margin-top: 0px;
+}
+
+select {
+  cursor: pointer;
+}
+
+.arrow {
+  height: 6vh;
+  width: 6vw;
 }
