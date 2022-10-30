@@ -1,15 +1,25 @@
+* {
+  font-size: 62.5%;
+}
+
+main {
+  background-color: gainsboro;
+}
+
 .flex {
   display: flex;
 }
 
 .header {
-  border: 3px solid green;
+  /* border: 3px solid green; */
   justify-content: space-between;
   height: 15vh;
+  background-color: rgb(52, 83, 102);
+  color: white;
+  font-size: 3rem;
 }
 
 .stageRight {
-  border: 3px solid yellow;
   list-style: none;
   width: 30%;
   justify-content: space-between;
@@ -17,24 +27,42 @@
 }
 
 .stageLeft {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+  width: 15vw;
 }
 
 .title {
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
   margin: 17px;
+  font-size: 3rem;
+  display: flex;
+  align-items: flex-end;
 }
 
 .cards {
-  border: 3px solid black;
+  /* border: 3px solid black; */
   margin: 2px;
   width: 23vw;
-  height: 50vh;
+  height: fit-content;
   flex-direction: column;
+  font-size: 2.25rem;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 3px blue;
 }
 
+.background {
+  background-image: url('https://cdn.pixabay.com/photo/2017/05/12/08/29/coffee-2306471__480.jpg');
+  height: 22vh;
+  background-position-y: -9vh;
+  background-position-x: -3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 2.3rem;
+}
 
 h1 {
   height: 10vh;
@@ -47,6 +75,44 @@ h1 {
 
 .cards.image {
   align-items: center;
+  height: 228px;
 }
 
+.logo {
+  height: 10vh;
+  background-color: rgb(52, 83, 102)
+}
 
+a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.number {
+  font-size: 3rem;
+  font-weight: bold;
+  height: 0vh;
+  margin-top: -10px;
+}
+
+.link {
+  background-color: gray;
+  width: 20vw;
+  height: 4vh;
+  text-align: center;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+.icons {
+  height: 2vh;
+  width: 2vw;
+}
+
+.menu {
+  justify-content: space-between;
+  width: 12vw;
+}
